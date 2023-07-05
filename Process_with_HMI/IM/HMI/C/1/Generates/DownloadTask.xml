@@ -2,7 +2,7 @@
 <DownloadTask>
   <ProjectInfo
     DeviceVersion="15.1.0.0"
-    CreationTime="2023-07-04 15:17:47 (UTC)"
+    CreationTime="2023-07-05 15:19:17 (UTC)"
     Runtime="COLORADO"
     RtProjectName="Process_with_HMI.HMI_1[TP700 Comfort]"
     RtProjectFolderName="Process_with_HMI.HMI_1[TP700 Comfort]"
@@ -20,4 +20,9 @@
     type="ADMINDATA">pdata.pwx</FullDownload>
   <FullDownload>ProjectSettings.hsf</FullDownload>
   <FullDownload>DeviceSettings.hsf</FullDownload>
+  <FullDownload
+    type="WEBDATA">WebContent.zip</FullDownload>
+  <FullDownload
+    type="WEBDATA">SystemData.zip</FullDownload>
+  <FullDownload>SmartServer.rld</FullDownload>
 </DownloadTask>
