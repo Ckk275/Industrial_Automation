@@ -1,0 +1,88 @@
+[Servers]
+0\Name=SIMATIC.S7-1500.OPC-UA.Application:PLC_1
+0\Connected=true
+0\ProjectServerId=0
+0\ServerUrl=opc.tcp://192.168.0.1:4840
+0\Server.ApplicationUri=urn:SIMATIC.S7-1500.OPC-UA.Application:PLC_1
+0\Server.ProductUri=https://www.siemens.com/s7-1500
+0\Server.ApplicationNameLocale=
+0\Server.ApplicationNameText=SIMATIC.S7-1500.OPC-UA.Application:PLC_1
+0\Server.ApplicationType=0
+0\Server.GatewayServerUri=
+0\Server.DiscoveryProfileUri=
+0\Server.NoOfDiscoveryUrls=1
+0\Server.DiscoveryUrl0=opc.tcp://192.168.0.1:4840
+0\ServerCertificate="@ByteArray(0\x82\x3\xf0\x30\x82\x2\xd8\xa0\x3\x2\x1\x2\x2\x1\x1\x30\r\x6\t*\x86H\x86\xf7\r\x1\x1\v\x5\0\x30\x39\x31\x18\x30\x16\x6\x3U\x4\x3\x13\xfPLC-1/OPCUA-1-11\v0\t\x6\x3U\x4\x6\x13\x2\x44\x45\x31\x10\x30\xe\x6\x3U\x4\n\x13\aSiemens0\x1e\x17\r230623145109Z\x17\r370622230000Z091\x18\x30\x16\x6\x3U\x4\x3\x13\xfPLC-1/OPCUA-1-11\v0\t\x6\x3U\x4\x6\x13\x2\x44\x45\x31\x10\x30\xe\x6\x3U\x4\n\x13\aSiemens0\x82\x1\"0\r\x6\t*\x86H\x86\xf7\r\x1\x1\x1\x5\0\x3\x82\x1\xf\0\x30\x82\x1\n\x2\x82\x1\x1\0\xbd\xff\x83\xf1\r\x88\xb5\x1e\xb7\xe6\x84\x93\x9dtS\xff\x9d\xabVD`\xcb\xfc\xb0\xf0hs\xb9\x1f\xb5\xd7^U\xc5\x62\xae\x35r\xf8\xe8\x36\xbd\xc5\xdc\xd4\xb7\x9d\x1eL\xfe\xf1\xba\x1\xe\xc5\x1e\x46\xd2Z1]\x8e^\xa5\xfb\xb4\xfc\xd2^\x1o#\x1f\x17\xd3k\xc4\xc9\x8c_^\xf9m\xf9_\x14r\xe9\xb9\x63\xed\r\xab\xd5\xd1\xa0H\xd2\x9c\x33\xb4\x9dl\xf3\xc1\x10\xbe!\xcc\x12^\b]M\vP\xab\xb1\xbe\xbc\xf9\xbem\x1\xfd\xc1\x97\xda\x93V\xa0\xa3\xf3\xe1\xd2\n~\x12\x65\xbb\0\xc5w\xa0\x43!\xfa\x86\xecp^v\xbf\xe(e\xc8?\x1e\xed+\xed\xb9\x12\xe9\x9fh\xae\xb3^\x9d\x39\x2\x1dt\nu\xed\xac\xcf\xb5]A9n\x95\x90\xb0\xb9\xe1\x11\x14\x92u\xf6V\xd8\br;\xa4x;\x99\x99Y\x2\xba^\xc3\xa0\x33P\x8c\xae\xe5\x16\x64\x90\xfd\x9f%X\xedQ\a\x88]\x84#M!\xf6\xe4\fh`R\xfc\x65!;\xff<\xc5\xaf\xb7\xe\r\xcduf\xc1\x8c\xb6s\x2\x3\x1\0\x1\xa3\x82\x1\x1\x30\x81\xfe\x30\t\x6\x3U\x1d\x13\x4\x2\x30\0\x30\x1d\x6\x3U\x1d\xe\x4\x16\x4\x14\fg\xd9\xb5\x42lV?\xc5\x4\xf5\x8a\xc0 \x83\x93n\xa9\xde!0a\x6\x3U\x1d#\x4Z0X\x80\x14\fg\xd9\xb5\x42lV?\xc5\x4\xf5\x8a\xc0 \x83\x93n\xa9\xde!\xa1=\xa4;091\x18\x30\x16\x6\x3U\x4\x3\x13\xfPLC-1/OPCUA-1-11\v0\t\x6\x3U\x4\x6\x13\x2\x44\x45\x31\x10\x30\xe\x6\x3U\x4\n\x13\aSiemens\x82\x1\x1\x30\v\x6\x3U\x1d\xf\x4\x4\x3\x2\x2\xf4\x30\x1d\x6\x3U\x1d%\x4\x16\x30\x14\x6\b+\x6\x1\x5\x5\a\x3\x1\x6\b+\x6\x1\x5\x5\a\x3\x2\x30\x43\x6\x3U\x1d\x11\x4<0:\x86,urn:SIMATIC.S7-1500.OPC-UA.Application:PLC_1\x87\x4\xc0\xa8\0\x1\x87\x4\xc0\xa8\x1\x1\x30\r\x6\t*\x86H\x86\xf7\r\x1\x1\v\x5\0\x3\x82\x1\x1\0=_\xc4\x15V\x7f\xa3[Y\xd5\x5\xb1\xa4_\xe7\xd0\x1f-^\xd7\xa5\xae!\xf8\x85\x8d\x2\x87\xc6\xbf\xff\xcf\x8f\x9e*t\xb2\r\x1d\xad}\xb5\xb7l@\xd0Y6\x9c\xf3RO\xce\xfa\xf3u\xee\xe2\xfd)*\x82Z\x96\x11\x18\x34+\x5$7q\xcer\xb5\xcdO\xaf\xc7\b\xfe\xa0|(\xe7\xbbo$N\xd8\x90k\xb7u\x84\fk\xb2\xa5\x19\n\x1f@E\xde\x36\xe5\x11|\x86\xca\x89\xa5\x95^o\x98/U\x3\x1e\xa5H\xcc\xa8@\x5\x12\xfq\xd2\xc6\x44UK\x8au\x1e\xdb\xee\xfbL\xd4\0^)\x83\xa5\x42\xc5\"\xfb\x8f\xaaW\v\xf9|\x8a:\xd4\xe2\xf3\xa4Iy:P6\x9dqd3S\x94\x9d\nP\xc2\xee\xf6#\x8d\xa2sI\xd1\x9c\xc0\xaa\x62RJ\x9b<W\xd3\x42[\xe4\xae\xb8P\xc8\x80\x41\xa4\xde\x1a\xb7\x45\x12\x8f\x46\xf9\xcd\x63\xe4\xe1V@9\x15\x16\0\x19\x86!\xa1\x64_./}8j'\xaf\xdb\xd1%\xa8#\x93\x1d\\U\x1l\0\x92\xfcY0\xe\x10)"
+0\MessageSecurityMode=1
+0\SecurityPolicy=http://opcfoundation.org/UA/SecurityPolicy#None
+0\NoOfUserIdentityTokens=1
+0\UserIdentityToken0.PolicyId=Anonymous
+0\UserIdentityToken0.TokenType=0
+0\UserIdentityToken0.IssuedTokenType=
+0\UserIdentityToken0.IssuerEndpointUrl=
+0\UserIdentityToken0.SecurityPolicyUri=
+0\TransportProfileUri=http://opcfoundation.org/UA-Profile/Transport/uatcp-uasc-uabinary
+0\SecurityLevel=0
+0\DisplayName=SIMATIC.S7-1500.OPC-UA.Application:PLC_1
+0\ReverseConnect=false
+0\ClientEndpointUrl=
+0\UserTokenType=0
+0\SessionName=urn:DESKTOP-0I8RV6K:UnifiedAutomation:UaExpert
+0\DiscoveryHost=
+0\UserName=
+0\StorePassword=false
+0\CertificateFile=
+0\PrivateKeyFile=
+0\PkiStoreIndex=0
+0\Namespaces\0=http://opcfoundation.org/UA/
+0\Namespaces\1=urn:SIMATIC.S7-1500.OPC-UA.Application:PLC_1
+0\Namespaces\2=http://opcfoundation.org/UA/DI/
+0\Namespaces\3=http://www.siemens.com/simatic-s7-opcua
+
+[Documents]
+Data%20Access%20View\DocumentType=Data Access View
+Data%20Access%20View\DocumentSettings\headerState=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x3\x43\0\0\0\t\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\x2\0\0\0#\0\0\0\x1\0\0\0\0\0\0\x3 \0\0\0\b\0\0\0\0)
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingInterval=1000
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\lifetimeCount=300
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxKeepAliveCount=10
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxNotificationsPerPublish=0
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\priority=0
+Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingEnabled=true
+Data%20Access%20View\DocumentSettings\Items\000\001\DisplayName=Control value
+Data%20Access%20View\DocumentSettings\Items\000\001\NodeId="ns=3;s=\"Control value\""
+Data%20Access%20View\DocumentSettings\Items\000\001\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\001\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\001\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\001\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\001\MonitoringParameters\SamplingInterval=1000
+Data%20Access%20View\DocumentSettings\Items\000\003\DisplayName=Temperature set point
+Data%20Access%20View\DocumentSettings\Items\000\003\NodeId="ns=3;s=\"Temperature set point\""
+Data%20Access%20View\DocumentSettings\Items\000\003\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\003\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\003\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\003\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\003\MonitoringParameters\SamplingInterval=1000
+Data%20Access%20View\DocumentSettings\Items\000\005\DisplayName=Real Temperature
+Data%20Access%20View\DocumentSettings\Items\000\005\NodeId="ns=3;s=\"Real Temperature\""
+Data%20Access%20View\DocumentSettings\Items\000\005\Status=2
+Data%20Access%20View\DocumentSettings\Items\000\005\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\005\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\005\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\005\MonitoringParameters\SamplingInterval=1000
+History%20Trend%20View\DocumentType=History Trend View
+History%20Trend%20View\DocumentSettings\SingleUpdate=true
+History%20Trend%20View\DocumentSettings\StartTime=@Variant(\0\0\0\x10\0%\x89\xf2\x1\xb7t\0\xff)
+History%20Trend%20View\DocumentSettings\EndTime=@Variant(\0\0\0\x10\0%\x89\xf2\x4J\xa2\0\xff)
+History%20Trend%20View\DocumentSettings\CyclicUpdate=false
+History%20Trend%20View\DocumentSettings\Timespan=@Variant(\0\0\0\xf\0\0\xea`)
+History%20Trend%20View\DocumentSettings\UpdateInterval=@Variant(\0\0\0\xf\0\0\x3\xe8)
+History%20Trend%20View\DocumentSettings\CyclicUpdateRunning=false
+
+[Attribute%20Plugin]
+Act_OnOff_Checked=true
+
+[Reference%20Plugin]
+Act_OnOff_Checked=true
+Act_ShowHierarchical_Checked=true
+Act_ShowNonHierarchical_Checked=true
+Cmb_BrowseDirection_State=0
