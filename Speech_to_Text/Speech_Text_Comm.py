@@ -128,19 +128,26 @@ def handle_transcription():
 
         # Get the transcribed text
         transcribed_text = ""
-        for result in response.results:
-            transcribed_text += result.alternatives[0].transcript + " "
+        if response.results:
+            for result in response.results:
+                transcribed_text += result.alternatives[0].transcript + " "
+                # Send the transcribed text back to the client
+                send(transcribed_text)
+                print("Transcription complete. Sent result to client.")
+        else:
+            transcribed_text = "No Transcription"
+            # Send the transcribed text back to the client
+            send(transcribed_text)
+            print("No Transcription Available.")
         
-        # Send the transcribed text back to the client
-        send(transcribed_text)
-        print("Transcription complete. Sent result to client.")
+        
 
 # Main function
 def main():
     try:
         # Get the IP address of the system
         ip_address = socket.gethostbyname(socket.gethostname())
-        port = 10999
+        port = 10998 
 
         # Start the TCP server
         start_tcp_server(ip_address, port)
@@ -166,7 +173,7 @@ def main():
                 break
 
             # Send a receive acknowledgment response back to the client
-            send('Received')
+            #send('Received')
             print("Sent response to client")
 
     except KeyboardInterrupt:

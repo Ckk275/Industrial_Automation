@@ -1,6 +1,7 @@
 import socket
 import time
 
+
 # global variables for server_socket, client_socket, client_address
 server_socket = None
 client_socket = None
@@ -22,10 +23,10 @@ def start_tcp_server(host, port):
         global client_address
         client_socket, client_address = server_socket.accept()
         print("Accepted connection from %s:%s" % (client_address[0], client_address[1]))
-    
+        #Audio.SayEZB('Connected to PLC');
         
         # Move to pickup initial position
-
+        #controlCommand("Auto Position", "AutoPositionAction", "Pick Prep");
         
     
     # Handle exceptions
@@ -67,7 +68,7 @@ def main():
     try:
         # Get the IP address of the system
         ip_address = get_ip_address()
-        port = 10999
+        port = 10998
 
         # Start the TCP server
         start_tcp_server(ip_address, port)
@@ -87,6 +88,10 @@ def main():
                 print("Client Disconnected")
                 break
 
+            # Command JD to Pick and Place
+           # Audio.SayEZB('Picking item');
+           # controlCommand("Auto Position", "AutoPositionAction", "Pick And Place");
+            time.sleep(8)
 
             # Send a receive acknowledgement response back to the client
             send('Picked Up')
@@ -100,7 +105,7 @@ def main():
     finally:
         # Close the server socket
         close_server()
-    
+        #Audio.SayEZBWait('bye bye')
 
 # Call the main function
 main()
