@@ -2,6 +2,7 @@ import socket
 import pyaudio
 import wave
 import threading
+import time
 from google.cloud import speech
 
 # Set up Google Cloud Speech-to-Text client
@@ -13,7 +14,7 @@ def get_audio_from_microphone():
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
     RATE = 16000  # Use 16000 Hz sample rate for the Google Cloud Speech-to-Text API
-    RECORD_SECONDS = 5
+    RECORD_SECONDS = 3
 
     p = pyaudio.PyAudio()
 
@@ -128,18 +129,22 @@ def handle_transcription():
 
         # Get the transcribed text
         transcribed_text = ""
+        Text = "Done"
         if response.results:
             for result in response.results:
                 transcribed_text += result.alternatives[0].transcript + " "
                 # Send the transcribed text back to the client
                 send(transcribed_text)
                 print("Transcription complete. Sent result to client.")
+                time.sleep(0.5)
+                send(Text)
         else:
             transcribed_text = "No Transcription"
             # Send the transcribed text back to the client
             send(transcribed_text)
             print("No Transcription Available.")
-        
+            time.sleep(0.5)
+            send(Text)
         
 
 # Main function
@@ -178,11 +183,13 @@ def main():
 
     except KeyboardInterrupt:
         print("Server interrupted")
+
     except Exception as e:
         print("Error: %s" % str(e))
     finally:
         # Close the server socket
         close_server()
+        
 
 # Call the main function
 if __name__ == "__main__":
