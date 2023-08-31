@@ -14,7 +14,7 @@ def get_audio_from_microphone():
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
     RATE = 16000  # Use 16000 Hz sample rate for the Google Cloud Speech-to-Text API
-    RECORD_SECONDS = 3
+    RECORD_SECONDS = 2
 
     p = pyaudio.PyAudio()
 
